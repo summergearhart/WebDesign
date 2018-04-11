@@ -15,5 +15,23 @@
 
 body {  background-color: orange; 
 		color: red; 
-
+font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 { font-size: 12pt; /* points */ 
+font-style: normal; 
+font-weight: bold; 
+text-align: center; 
+}
+
+img {float: right;}
+
+
+/* image goes right; stuff after goes
+
+
+
+
+
+
+around it */

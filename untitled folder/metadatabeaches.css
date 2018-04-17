@@ -13,18 +13,22 @@
 
 /* Put body attributes here */
 
-body {  background-color: orange; 
-		color: red; 
+body {  background-color:#58D68D; 
+		color: #2C3E50; 
 font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 { font-size: 12pt; /* points */ 
+h2 { font-size: 20pt; /* points */ 
 font-style: normal; 
 font-weight: bold; 
 text-align: center; 
 }
 
 img {float: right;}
+
+p { background-color: white; }
+
+h2 { background-color: #A569BD; }
 
 
 /* image goes right; stuff after goes

@@ -1,0 +1,44 @@
+/*
+* Summer Gearhart
+* April 22, 2018
+* Girl Develop It 
+*/
+
+
+/* The universal selector */
+header {background-color: #C14C51;}
+header {text-align: center;}
+* {
+
+}
+
+/* Put body attributes here */
+
+body {  font-family : "Arial" , " Helvetica", " sans-serif" ;
+ background-color: lightpink ;  }
+
+figure img { float: right; }
+picture1 { height="200px" width="300px"}
+picture2 { height="200px" width="300px"}
+
+p {  font-family: Arial;
+background-color: " lightpink" ;
+color: black
+font-size: 95%
+ ;}
+	   
+footer {font-family: "Arial" , " Helvetica", " sans-serif" ; }
+	   
+h1 { font-family: "apple chancery", Cursive;
+font-size: 130%
+background-color: lightpink}
+a:link{
+color: blue; }
+
+a:hover, a:focus {
+color: fuchsia;
+font-size: 130% }
+
+
+
+}

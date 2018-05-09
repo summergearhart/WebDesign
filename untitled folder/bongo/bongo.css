@@ -1,0 +1,85 @@
+/*
+* Summer Gearhart
+* April 22, 2018
+* Girl Develop It 
+*/
+
+/* The universal selector */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+header {  /* this is where all of the header information is included, this is very important to construct the top of the webpage*/
+text-align: center;
+color: #EF5350;
+border-bottom: 4px solid #5D6D7E;
+margin: 15px;
+padding: 10px;
+}
+
+body { /* I put information in the body to center the overall webpage*/
+width: 1400px; 
+margin: auto; 
+}
+
+
+h1 {color: #EF5350;
+margin: 20px; }
+p {color: black; /* this p tag controls what all of the p tags look like in the html*/ 
+margin: 20px; 
+font-size: 20px; }
+
+
+
+.picture1 { height: 200px; width: 300px; 
+	border:2px dashed black;
+   padding: 2px;
+   margin: 20px;
+   float: left;} /* this part was cool to make all the pictures have cool borders around them*/
+   
+   .picture2 { height: 200px; width: 200px;
+	border:2px solid black;
+	margin: 10px; }
+  
+     .picture3 { height: 200px; width: 250px;
+	border:2px solid black;
+	margin: 10px;}
+	  
+	   .picture4 { height: 200px; width: 250px;
+	border:2px solid black;
+	margin: 10px;}
+
+   .picture5 { height: 200px; width: 200px;
+	border:2px solid black;
+	margin: 10px;}
+	  
+	   .picture6 { height: 200px; width: 250px;
+	border:2px solid black;
+	margin: 10px;}
+  
+   .picture7 { height: 180px; width: 250px;
+	border:2px solid orange;
+	margin: 10px;
+	float: right;}
+
+footer {
+margin: 15px;
+border-top: 4px solid #5D6D7E; /* I had to name this one border top because I wanted it to be on top of everything in the footer*/
+color: #5D6D7E;
+}
+footer p{  /* I had to name this two things because I wanted the p tag to show up a different color then just black which is what I originally set it to in the beginning*/ 
+color: #5D6D7E;
+font-size: 17px;
+}
+ul{
+margin: 30px;
+}
+h4 { 
+float: right;
+}
+   
+
+
+

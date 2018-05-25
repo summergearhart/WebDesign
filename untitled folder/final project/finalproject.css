@@ -1,0 +1,110 @@
+/* Name:
+*  Date: 
+*  Lab: C13 Fluid Layout Exercise */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 95%;
+    background-color: white;
+    margin: 15px auto; /* doing the auto part on the body made the whole page centered*/
+    border: 2px solid #7D3C98;
+    font-size: 17px;
+}
+
+h2 {
+    padding: 10px;
+    color: #F5B041;
+    text-decoration: underline; /* I made the bigger fonts underlined so it stands out to people what they are going to read about*/
+     color: #7D3C98;
+}
+
+
+header {
+    border-bottom: 2px solid #7D3C98;
+    text-align: center;
+    background-color: #BB8FCE;
+    font-size: 20px;
+     color: #7D3C98;
+}
+
+#Trivia {
+    width: 20%;
+    height: 565px; /* I had to make the lines weird lengths like 565 so that the line would hit the other line evenly*/ 
+    float: left ;
+    border-right: 2px solid #7D3C98;
+    font-size: 18px;
+    padding: 18px;
+    
+}
+#Trivia ul { 
+color: #2C3E50;
+}
+.picture1 { height: 200px; width: 200px; 
+	border:3px solid #7D3C98;
+   padding: 2px;
+   margin: 20px;
+   float: left;}
+
+
+.picture2 { height: 150px; width: 300px; 
+	border:3px solid #7D3C98;
+   padding: 2px;
+   margin: 10px;
+   float: right;}
+  
+   .picture4 {
+   height: 125px; width: 200px; 
+	border:3px solid #7D3C98;
+   padding: 2px;
+   margin: 10px;
+   
+   }
+figure{
+
+text-align: center;
+}
+.picture3 {
+   height: 175px; width: 300px; 
+	border:3px solid #7D3C98;
+   padding: 2px;
+   margin: 10px;
+   
+   }
+
+p{
+padding: 15px; /* padding is so important in projects like these so everything doesn't look so clumped together*/
+}
+
+main {
+    width:50% ;
+    height:500px;
+    float: left ;
+}
+
+#Accomplishments {
+    width: 25% ;
+    height: 581px; /* Once again I had to make the lines weird lengths like 581 so that the line would hit the other line evenly*/ 
+    float: right ;
+    border-left: 2px solid #7D3C98;
+    padding: 10px;
+ 
+}
+
+footer {
+    clear: both;
+    border-top: 2px solid #7D3C98;
+    height: 100px;
+    padding: 15px;
+}
+footer p{  /* Even though this part is still in the footer I had to do it separate because its the only part I wanted to float left*/
+float: right;
+color: red;
+}
+
+li { 
+margin: 10px;
+}
